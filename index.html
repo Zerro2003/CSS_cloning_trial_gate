@@ -6,16 +6,73 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container mx-auto p-4">
-      <h1 class="text-3xl font-bold mb-4">Hello, from Elie Mugisha;</h1>
-      <p class="text-gray-700">
-        A full cloned CSS site will be available soon today here!.
-      </p>
-      <button
-        class="mt-4 bg-amber-500 text-white px-4 py-2 rounded lg:bg-blue-600"
-      >
-        Under Development
-      </button>
+    <nav class="flex flex-row relative">
+      <div class="w-[50%] h-[120px]">
+        <div class="items-center w-[50%] h-[120px] flex justify-between">
+          <div class="flex flex-col items-end ml-12">
+            <h1 class="text-4xl font-bold">Goldsmith</h1>
+            <p class="text-[10px]">UNIVERSITY OF LONDON</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-[50%] h-[120px]">
+        <div
+          class="flex flex-row justify-end bg-[#bba9bc] ml-60 rounded-bl-full"
+        >
+          <h1 class="text-2xl font-bold py-4 pr-4">
+            🎓Student, Staff and Alumni
+          </h1>
+        </div>
+        <div class="flex flex-row">
+          <ul class="flex flex-row mt-4">
+            <div
+              class="h-[100px] hover:cursor-pointer hover:bg-gray-700 hover:text-white"
+            >
+              <a class="px-3.5 text-[18px] font-bold">Study</a>
+            </div>
+            <div
+              class="h-[100px] hover:cursor-pointer hover:bg-gray-700 hover:text-white"
+            >
+              <a class="px-3.5 text-[18px] font-bold">Courses finder</a>
+            </div>
+            <div
+              class="h-[100px] hover:cursor-pointer hover:bg-gray-700 hover:text-white"
+            >
+              <a class="px-3.5 text-[18px] font-bold">International</a>
+            </div>
+            <div
+              class="h-[100px] hover:cursor-pointer hover:bg-gray-700 hover:text-white"
+            >
+              <a class="px-3.5 text-[18px] font-bold">More</a>
+            </div>
+            <div
+              class="h-[100px] hover:cursor-pointer hover:bg-gray-700 hover:text-white"
+            >
+              <a class="px-3.5 text-[18px] font-bold">🔍search</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="relative">
+      <img class="relative z-10" src="/hero.svg" alt="" />
+      <img
+        class="absolute top-[-0px] right-0 h-[538px] w-[760px]"
+        src="/walking.jpeg"
+        alt=""
+      />
+      <div class="absolute top-20 left-30 z-20 m h-[400px] w-[250px]">
+        <h1 class="text-5xl font-bold">Different is what we do</h1>
+        <h1 class="text-2xl font-bold pt-6">Discover our exciting degrees</h1>
+        <div class="flex flex-col items-center mt-14">
+          <button class="bg-amber-100 border w-max px-18 py-1 border-b-3">
+            Course Finder
+          </button>
+          <button class="bg-amber-100 border w-max px-17 py-1 border-b-3 mt-3">
+            Autumn Events
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
