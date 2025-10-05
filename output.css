@@ -334,6 +334,9 @@
   .w-\[600px\] {
     width: 600px;
   }
+  .w-\[640px\] {
+    width: 640px;
+  }
   .w-\[760px\] {
     width: 760px;
   }
@@ -381,6 +384,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 3px;
   }
+  .bg-\[\#F6F7F7\] {
+    background-color: #F6F7F7;
+  }
   .bg-\[\#FFCD6E\] {
     background-color: #FFCD6E;
   }
@@ -389,6 +395,9 @@
   }
   .bg-\[\#e0dbe0\] {
     background-color: #e0dbe0;
+  }
+  .bg-\[\#ebcdec\] {
+    background-color: #ebcdec;
   }
   .bg-amber-100 {
     background-color: var(--color-amber-100);
