@@ -241,6 +241,9 @@
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
   }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
